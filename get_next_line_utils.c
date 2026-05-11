@@ -6,11 +6,21 @@
 /*   By: kapaydin <kapaydin@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/09 15:38:04 by kapaydin          #+#    #+#             */
-/*   Updated: 2026/05/11 14:47:59 by kapaydin         ###   ########.fr       */
+/*   Updated: 2026/05/11 16:06:40 by kapaydin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
+
+size_t	ft_strlen(const char *str)
+{
+	const char	*s;
+
+	s = str;
+	while (*s)
+		s++;
+	return (s - str);
+}
 
 char	*ft_strdup(const char *s1)
 {
