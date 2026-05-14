@@ -58,7 +58,7 @@ The solution utilizes a single `static char *` variable to persist string data a
 *   [Static Variables in C (Wikipedia)](https://en.wikipedia.org/wiki/Static_variable)
 *   [File Descriptors in C](https://en.wikipedia.org/wiki/File_descriptor)
 
-## AI Usage Acknowledgment
+### AI Usage Acknowledgment
 
 AI tools were utilized during the development of this project for:
 *   Generating edge-case testing structures to validate memory safety and function accuracy across various buffer configurations.
